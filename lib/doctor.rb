@@ -18,5 +18,8 @@ class Doctor
     @appointments << appt
   end
 
+  def self.all
+    @@all
+  end
 
 end
